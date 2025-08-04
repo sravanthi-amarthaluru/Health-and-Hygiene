@@ -246,10 +246,12 @@ metadata:
 
 test_plan:
   current_focus:
-    - "Authentication System with Emergent Auth"
-    - "Community Service Survey Form API"
-    - "Analytics and Results API"
-    - "Personalized Suggestions Engine"
+    - "Authentication UI with Emergent Auth"
+    - "Complete Health & Hygiene Survey Form"
+    - "Dashboard with Progress Tracking"
+    - "Results & Analytics with Charts"
+    - "Personalized Suggestions Display"
+    - "PDF Report Generation"
   stuck_tasks: []
   test_all: false
   test_priority: "high_first"
