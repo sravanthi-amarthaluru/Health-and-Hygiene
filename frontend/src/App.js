@@ -14,7 +14,7 @@ function App() {
   const [analytics, setAnalytics] = useState(null);
   const [loading, setLoading] = useState(false);
 
-  const backendUrl = process.env.REACT_APP_BACKEND_URL;
+  const backendUrl = process.env.REACT_APP_BACKEND_URL || 'https://72251f16-e2c3-4ee3-a557-2296c4630168.preview.emergentagent.com';
 
   useEffect(() => {
     const savedUser = localStorage.getItem('user');
